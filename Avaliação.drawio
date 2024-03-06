@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T21:38:25.694Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="zLz6p8Xd2mYoujDPVVO0" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T00:24:18.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="h1aRKe6qZSR4EPp-mIrc" version="24.0.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1363" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="700" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,15 +60,6 @@
             <mxPoint x="148" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ehJHQWUn2DoETc1FjZwP-19" value="Aguarda o serviço finalizar" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="110" y="40" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ehJHQWUn2DoETc1FjZwP-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-21" target="ehJHQWUn2DoETc1FjZwP-40" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="74.5" as="sourcePoint" />
-            <mxPoint x="240" y="75" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ehJHQWUn2DoETc1FjZwP-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.333;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="dNxyNK7c78bLwvsdeMH5-21" target="ehJHQWUn2DoETc1FjZwP-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="75" as="sourcePoint" />
@@ -101,6 +92,18 @@
         </mxCell>
         <mxCell id="ehJHQWUn2DoETc1FjZwP-47" value="Formulário para&amp;nbsp;&lt;div&gt;o prestador&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="310" y="100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JlIleffEJivtEUEK7PpD-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="210" y="52.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JlIleffEJivtEUEK7PpD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" target="JlIleffEJivtEUEK7PpD-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="75" as="targetPoint" />
+            <mxPoint x="180" y="75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JlIleffEJivtEUEK7PpD-4" value="Aguardo o final do atendimento" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="110" y="30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Prestador de serviço" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="300" width="860" height="140" as="geometry" />
