@@ -1,11 +1,45 @@
 Funcionais:
-  - Sistema tem que mostrar os serviços disponíveis no aplicativo;
-  - Deve haver um método de pagamento para o serviço;
-  - Tem que haver um chat entre cliente e prestador de serviço;
+  - Sistema deve mostrar uma tela inicial de login com a opção de cadastro;
+  - Sistema deve exibir formulário de cadastro tanto de cliente (Nome, CPF, telefone, endereço, email e senha) e do prestador de serviço (Nome, CPF, telefone, email, endereço e senha);
+  - Sistema deve que mostrar os serviços disponíveis (motor dog (banho e/ou tosa) e passeador) no aplicativo (cliente);
+  - Sistema deve mostrar um formulário para cadastrar as informações do cachorro (Nome, cor, idade, raça, tamanho e informações adicionais) (cliente);
+  - Sistema deve exibir os prestadores disponíveis na região (cliente);
+  - Sistema deve exibir as informações do cliente e do cachorro para o prestador disponível na região (prestador de serviço);
+  - Sistema deve dar opção de escolha de aceitação de serviço (prestador);
+  - Sistema deve apresentar uma tela de chat de conversação entre cliente e prestador de serviço;
+  - Sistema deve haver um local para o cancelamento do serviço previamente;
+  - Sistema deve notificar o prestador de serviço sobre o cancelamento feito pelo cliente;
+  - Sistema deve gerar número de identificação de pedido;
+  - Sistema deve exibir a opção de check in para cliente e prestador de serviço;
+  - Sistema deve mostrar as opções de pagamento para o serviço, dentre elas são: cartão de crédito, cartão de débito e PIX;
+  - Sistma deve mostrar, caso a opção seja cartão de crédito, o formulário com: número do cartão, nome do titular, validade, código de segurança, CPF;
+  - Sistma deve mostrar, caso a opção seja cartão de débito, o formulário com: número do cartão, nome do titular, validade, código de segurança, CPF;
+  - Sistema deve mostrar, caso a opção seja PIX, a tela com o QRcode e o código do serviço de Copia e Cola;
+  - Sistema deve verificar o pagamento do cliente;
+  - Sistema deve exibir a tela de pagamento efetuado caso o pagamento tenha sido confirmado e pagamento não efetuado caso o pagamento não confirmado;
+  - Sistema deve gerar nota fiscal;
+  - Sistema deve mostrar uma tela de serviço finalizado;
+  - Sistema deve liberar o pagamento do prestador de serviço ao final do serviço efetuado;
+  - Sistema deve mostrar a tela de pagamento recebido para o prestador e notifica-lo;
+  - Sistema deve mostrar uma tela para o cliente em que dá a opção de avaliação do aplicativo e do prestador de serviço;
+  - Sistema deve mostrar uma tela para o prestador de serviço em que dá a opção de avaliação do aplicativo e do cliente;
+  - Sistema deve mostrar uma tela, se o cliente desejar avaliar o prestador de serviço, uma tela com o formulário com as perguntas que devem ser respondidas escolhendo uma opção entre 5 círculos que representaria uma nota de 0 a 5 para avaliar pontualidade, satisfação com o serviço, classificação do atendimento, classificação do cuidado com o pet, classificação de higiene das instalações e um espaço para escrever, opcionalmente, alguma crítica ao prestador;
+  - Sistema deve mostrar uma tela, se o prestador de serviço desejar avaliar o cliente, uma tela com o formulário com as perguntas que devem ser respondidas escolhendo uma opção entre 5 círculos que representaria uma nota de 0 a 5 para avaliar pontualidade, classificação do respeito do cliente ao estabelecimento do prestador, classificação da atitude dos cliente ao serviços, classificação da facilidade de comunicação com o cliente, classificação do nível de cooperação do cliente ao serviço e uma área opcional para que possa escrever qualquer crítica ao cliente;
+  - Sistema deve notificar que a avaliação foi enviada com sucesso em ambas as avaliações;
+  - Sistema deve disponibilizar a opção de reportar um serviço mal feito;
+  - Sistema deve verifica o estado do serviço, que deve estar finalizado;
+  - Sistema deve pedir justificativa do reporte do cliente podendo incluir texto e imagens;
+  - Sistema deve notificar o cliente de que o reporte foi enviado para a equipe responsável por analisar reportes;
+  - Sistema deve notificar o cliente que o analista avaliou que o serviço não foi defeituoso;
+  - Sistema deve notificar o prestador de serviço, caso o analista tenha avaliado o serviço como mal feito, sobre o ticket aberto;
+  - Sistema deve pedir uma justificativa ao prestador de serviço, mostrando número do serviço, data, horário e endereço do serviço realizado, que pode conter texto e imagens;
+  - 
+
+
 
 Não funcionais (4 de qualidade de software; 3 de restrições técnicas):
   - Deve gerar uma nota fiscal do serviço pago;
   - O sistema deve guardar as especificações de cada um dos clientes;
   - O sistema tem que mostrar se há prestadores disponíveis naquela área;
   - O sistema tem que guardar as informações de login dos prestadores e dos clientes;
-  - 
+  - Seguir LGPD;
