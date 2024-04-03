@@ -7,7 +7,7 @@ Funcionais:
   - Sistema deve exibir as informações do cliente e do cachorro para o prestador disponível na região (prestador de serviço);
   - Sistema deve dar opção de escolha de aceitação de serviço (prestador);
   - Sistema deve apresentar uma tela de chat de conversação entre cliente e prestador de serviço;
-  - Sistema deve haver um local para o cancelamento do serviço previamente;
+  - Sistema deve permitir que o usuário cancele o serviço previamente;
   - Sistema deve notificar o prestador de serviço sobre o cancelamento feito pelo cliente;
   - Sistema deve gerar número de identificação de pedido;
   - Sistema deve exibir a opção de check in para cliente e prestador de serviço;
