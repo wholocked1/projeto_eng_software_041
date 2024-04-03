@@ -33,13 +33,17 @@ Funcionais:
   - Sistema deve notificar o cliente que o analista avaliou que o serviço não foi defeituoso;
   - Sistema deve notificar o prestador de serviço, caso o analista tenha avaliado o serviço como mal feito, sobre o ticket aberto;
   - Sistema deve pedir uma justificativa ao prestador de serviço, mostrando número do serviço, data, horário e endereço do serviço realizado, que pode conter texto e imagens;
-  - 
+  - Sistema deve notificar o cliente se depois de análise do caso junto com as justificativas dadas pelo prestador de serviço o feedback quanto ao veredito do caso, podendo ser positivo ou negativo;
+  - Sistema deve disponibilizar a opção de reembolso ou de crédito no app; (?)
+  - Sistema deve mudar a avaliação do cliente, por meio da média entre as avaliações de cada atendimento realizados, depois de toda avaliação de prestador de serviço; (?)
+  - Sistema deve mudar a avaliação do prestador de serviço, por meio da média entre as avaliações de cada atendimento realizado, depois de toda avaliação do cliente; (?)
 
 
 
 Não funcionais (4 de qualidade de software; 3 de restrições técnicas):
-  - Deve gerar uma nota fiscal do serviço pago;
-  - O sistema deve guardar as especificações de cada um dos clientes;
-  - O sistema tem que mostrar se há prestadores disponíveis naquela área;
-  - O sistema tem que guardar as informações de login dos prestadores e dos clientes;
-  - Seguir LGPD;
+  - Sistema deve guardar as especificações de cada um dos clientes;
+  - Sistema tem que mostrar se há prestadores disponíveis naquela área;
+  - Sistema tem que guardar as informações de login dos prestadores e dos clientes em um bano de dados;
+  - Sistema deve seguir LGPD (Lei Geral de Proteção de Dados);
+  - Sistema tem que ser seguro;
+  - Sistema deve estar disponível o dia inteiro durante toda a semana;
