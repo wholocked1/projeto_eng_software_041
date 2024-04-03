@@ -45,7 +45,7 @@ Não funcionais (4 de qualidade de software; 3 de restrições técnicas):
   - Sistema tem que mostrar se há prestadores disponíveis naquela área;
   - Sistema tem que guardar as informações de login dos prestadores e dos clientes em um banco de dados;
   - Sistema deve seguir LGPD (Lei Geral de Proteção de Dados);
-  - Sistema tem que ser seguro;
+  - Sistema tem que ser seguro por meio de capchas no login e criptografias dos dados do cliente;
   - Sistema deve estar disponível o dia inteiro durante toda a semana;
   - Sistema deve, para atualizar a avaliação do cliente, fazer a média de todas avaliações feitas pelos prestadores de serviço;
-  - Sistema deve, para atualizar a avaliação do prestador de serviço, fazer a média de todas as avaliação feitasd pelos clientes;
+  - Sistema deve, para atualizar a avaliação do prestador de serviço, fazer a média de todas as avaliação feitas pelos clientes;
