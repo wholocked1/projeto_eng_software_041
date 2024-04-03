@@ -49,3 +49,6 @@ Não funcionais (4 de qualidade de software; 3 de restrições técnicas):
   - Sistema deve estar disponível o dia inteiro durante toda a semana;
   - Sistema deve, para atualizar a avaliação do cliente, fazer a média de todas avaliações feitas pelos prestadores de serviço;
   - Sistema deve, para atualizar a avaliação do prestador de serviço, fazer a média de todas as avaliação feitas pelos clientes;
+  - Sistema deve dar opção de autenticação por biometria;
+  - Sistema deve usar a cloud da AWS para desenvolvimento da solução;
+  - Sistema deve usar o banco de dados Oracle;
