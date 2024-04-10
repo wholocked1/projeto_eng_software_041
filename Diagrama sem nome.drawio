@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T22:12:49.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="23.1.8" etag="tk9bmXTozJEOdi89viMb" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T22:41:08.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="s4kwB7aAwK1MCtXOCDSJ" version="23.1.8" type="github">
   <diagram name="Página-1" id="l8r8cuFOkIhVQ8wDeBiE">
-    <mxGraphModel>
+    <mxGraphModel dx="1502" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8FJ5HQ2D-bfxr0lluIva-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FJ5HQ2D-bfxr0lluIva-2" value="Prestador de serviço" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FJ5HQ2D-bfxr0lluIva-5" value="Funcionário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FJ5HQ2D-bfxr0lluIva-6" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8FJ5HQ2D-bfxr0lluIva-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="525" as="sourcePoint" />
+            <mxPoint x="360" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
