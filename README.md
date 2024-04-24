@@ -1,4 +1,5 @@
 # Uberização Pet (serviço de banho e tosa/passeio)
+# Para mais informação, olhar a Wiki do repositório
 
 https://www.figma.com/team_invite/redeem/FXPcEnQhn7GYRKFtQPtmEK (link do figma)
 
