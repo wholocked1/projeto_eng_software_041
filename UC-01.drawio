@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T23:32:49.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="49umXtOtD83xhdmMUfA8" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T23:35:06.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pdf4qYY7GurlWuDQJCwI" version="24.4.2" type="github">
   <diagram name="Página-1" id="mzuy_ZY9fpjrDmBHJOYP">
     <mxGraphModel dx="1259" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1500" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YsvzCGxO1QobuKfYXr9-4" value="4. O sistema verifica as credenciais e concede acesso aos serviços" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_YsvzCGxO1QobuKfYXr9-2">
+        <mxCell id="_YsvzCGxO1QobuKfYXr9-4" value="6. O sistema verifica as credenciais e concede acesso aos serviços" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_YsvzCGxO1QobuKfYXr9-2">
           <mxGeometry x="0.5107" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
